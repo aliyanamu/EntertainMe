@@ -3,7 +3,7 @@ const mongoose = require('mongoose'),
 
 const tvScheme = new Schema({
     poster_path: String,
-    popularity: String,
+    popularity: Number,
     overview: String,
     title: String,
     tag: [{
